@@ -1,0 +1,93 @@
+#master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+.oper, .number, #display {
+    color: white;
+}
+
+.title {
+    padding: 10px;
+}
+
+#calculator {
+    display: flex;
+    width: 280px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px grey;
+}
+
+#display {
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    margin: 10px;
+    justify-content: right;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 340px;
+    margin-bottom: 10px;
+}
+
+.inputStuff {
+    width: 195px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.operators {
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#zeronum {
+    width: 100px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.special, .number, .oper {
+    font-size: 25px;
+    width: 55px;
+    height: 58px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32.5px;
+}
+
+.oper {
+    background-color: orange;
+}
+
+.special {
+    background-color: gainsboro;
+}
+
+.number {
+    background-color: #5a5a5a;
+}
+
+
+
+
