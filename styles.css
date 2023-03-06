@@ -29,10 +29,12 @@
 #display {
     font-size: 35px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 260px;
     margin: 10px;
     justify-content: right;
+    white-space: nowrap;
 }
 
 .inputs {
@@ -74,20 +76,49 @@
     align-items: center;
     justify-content: center;
     border-radius: 32.5px;
+    transition: 0.10s;
 }
 
 .oper {
     background-color: orange;
+    transition: 0.25s;
+}
+
+.oper:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 .special {
     background-color: gainsboro;
+    transition: 0.25s;
+}
+
+.special:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 .number {
     background-color: #5a5a5a;
+    transition: 0.25s;
 }
 
+.number:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+    cursor: pointer;
+}
 
+.selectedOper {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}
 
 
